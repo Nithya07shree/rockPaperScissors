@@ -72,4 +72,4 @@ resetbtn.addEventListener("click",() =>{
     compScorePara.innerText = "0";
     msg.innerText = "Play your move";
     msg.style.backgroundColor = "rgb(42, 10, 83)";
-});
+}); 

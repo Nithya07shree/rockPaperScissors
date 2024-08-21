@@ -12,11 +12,9 @@
 }
 .choice{
     height: 20rem;
-    width: 20%;
-}
+} 
 img{
     height: 18rem;
-    /* width: 100%; */
     object-fit: cover; /*for compressed images*/
     border-radius: 50%;
 }
@@ -26,6 +24,7 @@ img:hover, #reset:hover{
 }
 .choices{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
@@ -45,19 +44,19 @@ img:hover, #reset:hover{
 }
 
 .msgContainer{
-    margin-top: 5%;
+    margin-top: 4rem;
 }
 #msg{
     background-color: rgb(42, 10, 83);
     color: white;
     height: 5rem;
     display: inline;
-    padding: 1.5%;
+    padding: 1.1rem;
     font-size: 1.8rem;
     border-radius: 1rem;
 }
 .resetcont{
-    margin-top: 3%;
+    margin-top: 3rem;
 }
 #reset{
     height: 2.5rem;
@@ -65,6 +64,6 @@ img:hover, #reset:hover{
     color: white;
     display: inline;
     font-size: 1.5rem;
-    padding: 0.8%;
+    padding: 0.6rem;
     border-radius: 1rem;
 }
